@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/535f433bb6.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <title>UNDB Clínicas</title>
+</head>
+<body>
+    <div id="top-link"></div>
+    <div class="header">
+        <img src="./imagens/undb_clinicas_logo2.png" onclick="window.scroll(0,0)" class="header_logo">
+        <div onclick="sandwichOpen()" class="sandwich_button" id="sandwich-button">
+            <i class="fa-solid fa-bars sandwich_menu"></i>
+        </div>
+        <div class="sandwich_drop" id="sandwich-drop"> 
+            <a class="drop_link" href="#sobre-link"><i class="fa-solid fa-user-doctor"></i>SOBRE NÓS</a>
+            <a class="drop_link" href="#local-link"><i class="fa-sharp fa-solid fa-location-dot"></i>ONDE ESTAMOS</a>
+            <a class="drop_link" href="#instrucoes-link"><i class="fa-solid fa-address-book"></i></i>COMO AGENDAR</a>
+            <a class="drop_link" href="#faq-link"><i class="fa-solid fa-question"></i>PERGUNTAS FREQUENTES</a>
+        </div>
+    </div>
+    <section id="clinicas">    
+        <div class="clinicas">
+            <div class="text">
+                <p>Escolha uma das clínicas para mais informações.</p>
+            </div>
+            <div class="square">
+                <img src="./imagens/farmacia.webp" class="thumbnail">
+                <div class="thumb-title">FARMÁCIA<span>FARMÁCIA</span></div>
+            </div>
+            <div class="square">
+                <img src="./imagens/fisioterapia.webp" class="thumbnail">
+                <div class="thumb-title">FISIOTERAPIA<span>FISIOTERAPIA</span></div>
+            </div>
+            <div class="square">
+                <img src="./imagens/medicina.webp" class="thumbnail">
+                <div class="thumb-title">MEDICINA<span>MEDICINA</span></div>
+            </div>
+            <div class="square">
+                <img src="./imagens/nutricao.webp" class="thumbnail">
+                <div class="thumb-title">NUTRIÇÃO<span>NUTRIÇÃO</span></div>
+            </div>
+            <div class="square">
+                <img src="./imagens/odonto.webp" class="thumbnail">
+                <div class="thumb-title">ODONTOLOGIA<span>ODONTOLOGIA</span></div>
+            </div>
+            <div class="square">
+                <img src="./imagens/psicologia.webp" class="thumbnail">
+                <div class="thumb-title">PSICOLOGIA<span>PSICOLOGIA</span></div>
+            </div>
+        </div>
+    </section>
+
+    <div id="sobre-link"></div>
+    <section id="sobre">
+        <div class="sobre">
+            <div class="text">
+                <h1>SOBRE NÓS</h1>
+                <p>O complexo das clínicas integradas da saúde da UNDB oferece ... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <img src="./imagens/predio-clinicas.webp" class="fotos">
+            </div>
+    </section>
+    
+    <div id="local-link"></div>
+    <section id="local"> 
+        <div class="local">
+            <div class="google_map">
+                <iframe src="https://www.google.com/maps/embed?pb=!3m2!1spt-BR!2sbr!4v1684860084595!5m2!1spt-BR!2sbr!6m8!1m7!1sMjDJ1IZGXuuCmO64jhlB9Q!2m2!1d-2.500505553564968!2d-44.28761663319152!3f330.7406283948765!4f-0.8818848122883765!5f0.5288806670510455" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>      
+            <div class="complemento_mapa">
+                <div class="text">
+                    <h1>ONDE ESTAMOS</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="instrucoes-link"></div>
+    <section id="instrucoes">
+        <div class="instrucoes">
+            como agendar
+        </div>
+    </section>
+
+    <div id="faq-link"></div>
+    <section id="faq">
+        <div class="faq">
+            FAQ
+        </div>
+    </section>
+</body>
+</html>
