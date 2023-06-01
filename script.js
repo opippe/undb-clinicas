@@ -28,5 +28,5 @@ window.addEventListener('click', function(e){
 /* ======================= ALTERNAR PARA AS PÁGINAS DE CADA CLÍNICA ======================== */
 
 function navClinica(clinica) {
-  location.href = `./${clinica}.html`;
+  location.href = `/${clinica}.html`;
 }
